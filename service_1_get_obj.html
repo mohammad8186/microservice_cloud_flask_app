@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Retrieve Audio File</title>
+</head>
+<body>
+    <h2>Retrieve Audio File</h2>
+    <form action="http://localhost:5000/service_1/readobj"  method="get">
+        <label for="filename">Filename:</label>
+        <input type="text" id="filename" name="filename" required><br>
+
+        <label for="bucket">Bucket:</label>
+        <input type="text" id="bucket" name="bucket" required><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
